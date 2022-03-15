@@ -7,6 +7,10 @@
 (function() {
   "use strict";
 
+  var viewResume = function() {
+    window.open("assets/Docs/Tharindu Tissera - Resume.pdf", '_blank')
+  }
+
   /**
    * Easy selector helper function
    */

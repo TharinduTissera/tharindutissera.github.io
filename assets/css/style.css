@@ -148,12 +148,12 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
-  margin-left: 450px;
-  margin-bottom: 100px;
+  margin-left: 460px;
+  margin-bottom: 75px;
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 80px;
+  font-size: 75px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -227,7 +227,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content h3 {
+.about .content h2 {
   font-weight: 700;
   font-size: 26px;
   color: #173b6c;
@@ -252,6 +252,11 @@ section {
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+.about .container {
+  align-items: center;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /*--------------------------------------------------------------
